@@ -2,7 +2,7 @@
 //You make one by using //
 
 /*
-This is a comment but it's a mutli line comment
+This is a comment too but it's a mutli line comment
 So anything in here will not run in the code
 You can make one with /* and * /
 */
@@ -11,13 +11,13 @@ console.log("Hello World"); //This will print Hello World to the "console." You 
 
 
 var name = "John"; //A var is a variable, which is a place to store information
-let age = 25; //A let is a variable that can change
+let age = 25; //A let is just another way to declare a variable more info below
 const boo = true; //A const is a variable that cannot change, or a "constant"
 
 //Using var is more reliable than let but if you're trying to debug your code you should switch to let
 
 /*
-console.log(foo) // ReferenceError AKA crash
+console.log(foo) // ReferenceError AKA your program will error and stop running
 let foo = "bar"
 console.log(foo) // Output: bar
 
@@ -36,8 +36,8 @@ There are five types of variables
 1. String   - Can store anything such as letters, numbers, and symbols (like $, %, &, 𐐘, ඞ, etc.)
 2. Number   - Can store numbers
 3. Boolean  - Can store true or false
-4. Object   - Can store objects
-5. Array    - Can store arrays
+4. Object   - Can store objects (They look like this {}) and object can also contain Arrays and other objects
+5. Array    - Can store arrays (They look like this []) and arrays can also contain objects
 */
 
 var string = "This is a string!";
@@ -66,7 +66,7 @@ var end = 1
 for (var i = start; i < end; i++) { //This is a little complicated but basically it is a loop that runs a certain amount of times
 
     console.log(i); //This will print 0, 1, and 2 to the console
-    //JS/NodeJS doesnt count like 1,2,3 it counts like 0,1,2 so this is why we have to start at 0 and end at 2
+    //JS/NodeJS doesnt count like 1,2,3 it counts like 0,1,2 so this is why we have to start at 0 and end at 1
 
     if (isCool) { //This is check if the variable is true or false or if it is 1 or 0
 
